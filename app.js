@@ -61,9 +61,9 @@ app.route('/bfhl')
     const { data, file_b64 } = req.body;
     const response = {
       is_success: true,
-      user_id: 'sanhita_kundu_17091999',  // Replace with your full name and DOB
-      email: 'sanhita.kundu2020@vitstudent.ac.in',
-      roll_number: '20BEC0215',
+      user_id: 'atharv_sharma',  // Replace with your full name and DOB
+      email: 'atharvsharma210921@acropolis.in',
+      roll_number: '0827IT211022',
       numbers: [],
       alphabets: [],
       highest_lowercase_alphabet: [],
@@ -134,5 +134,5 @@ app.route('/bfhl')
 // Start the server
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log("Server running on http://localhost:${port}");
+  console.log("Server is running");
 });
